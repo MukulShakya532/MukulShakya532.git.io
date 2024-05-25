@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Name Input</title>
+    <script>
+        function saveName() {
+            var userName = document.getElementById("nameInput").value;
+            alert("Hello, " + userName + "! Your name has been saved.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Enter Your Name</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name...">
+    <button onclick="saveName()">Submit</button>
+</body>
+</html>
